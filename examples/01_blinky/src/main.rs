@@ -20,7 +20,7 @@ fn write_reg(addr: u32, val: u32) {
 }
 
 fn delay() {
-    for _ in 0..1000000/2 {
+    for _ in 0..1000000 {
         cortex_m::asm::nop();
     }
 }
