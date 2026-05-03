@@ -2,7 +2,7 @@
 
 A collection of bare-metal Rust examples for the nRF54L15 Development Kit.
 
-This repository demonstrates simple embedded applications using Rust on the nRF54L15 DK, including GPIO polling and LED control.
+This repository demonstrates simple embedded applications using Rust on the nRF54L15 DK.
 
 ## Build and flash
 1. Run `cargo build` to compile the application.
