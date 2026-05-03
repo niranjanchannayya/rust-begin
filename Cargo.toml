@@ -1,0 +1,11 @@
+[workspace]
+members = ["examples/01_blinky", "examples/02_polling"]
+resolver = "2"
+
+[profile.dev]
+debug = 2
+opt-level = "s"
+
+[profile.release]
+debug = 2
+opt-level = "s"
